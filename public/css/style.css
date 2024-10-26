@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#style-logo {
+    border-right: 1px solid #ded5c8;
+    padding: 20px;
+}
+
+#style-logo h1 {
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    font-weight: bold;
+
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+#style-logo p {
+    padding-top: 0;
+    letter-spacing: 0.3em;
+    color: #B29063;
+    margin-right: 30px;
+
+}
+
+.padded {
+    padding: 170px 0;
+}
+
+/*//////////////////////////////////////////////////////////////*/
+
+#style-info {
+    border-bottom: 1px solid #ded5c8;
+    font-weight: 200;
+    font-size: 13px;
+    color: black;
+
+}
+
+#style-info .col-2 {
+    padding-top: 5px;
+    padding-bottom: 0;
+    margin-bottom: -10px;
+    font-weight: bolder;
+}
+
+#style-info a {
+    text-decoration: none;
+    color: #262626;
+    border-right: 1px solid #ded5c8;
+    padding-right: 35px;
+
+}
+
+/*//////////////////////////////////////////////////////////////  BANNER  //////////////////////////////////////////////////////////////*/
+
+#style-navbar .col {
+    padding-top: 40px;
+    text-align: right;
+    padding-right: 60px;
+    padding-bottom: 32px;
+    border-left: 1px solid #ded5c8;
+}
+
+#style-navbar .col-2 {
+    padding-top: 40px;
+}
+
+#style-navbar h4 {
+    font-size: 12px;
+    color: #14203b;
+    font-weight: 600;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+.carousel-item h5 {
+    font-family: Montserrat;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.carousel-item p {
+    font-family: 'Marcellus', serif;
+    font-weight: 300;
+    font-size: 70px;
+}
+
+.carousel-item a {
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    padding: 5px 50px;
+}
+
+.btn {
+    --bs-btn-border-radius: 0;
+}
+
+/*//////////////////////////////////////////////////////////////  BODY  //////////////////////////////////////////////////////////////*/
+
+#presentacion {
+    font-family: 'Marcellus', serif;
+    font-weight: 400;
+    font-size: 44px;
+}
+
+#presentacion span {
+    color: #B29063;
+}
+
+#ceo {
+    color: #B29063;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.6em;
+    letter-spacing: .6em;
+    padding-top: 26px;
+}
+
+#nosotros .container .row .col-1 {
+    margin-top: -170px;
+    border-left: 1px solid #e1e1e1;
+    margin-bottom: 50px;
+}
+
+/*//////////////////////////////////////////////////////////////  collage  //////////////////////////////////////////////////////////////*/
+
+#collage img {
+    width: 100%;
+}
+
+.sunflower {
+    position: relative;
+}
+
+.sunflower figcaption {
+    position: absolute;
+    background-color: rgba(236, 184, 120, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.cafeteria2 {
+    position: relative;
+}
+
+.cafeteria2 figcaption {
+    position: absolute;
+    background-color: rgba(16, 33, 66, 0.9);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+#collage figcaption h4 {
+    color: white;
+    font-family: Marcellus, serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.285em;
+}
+
+.alinear-vertical-inferior {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 41px 48px;
+    cursor: pointer;
+}
+
+
+#collage figure {
+    overflow: hidden;
+}
+
+.mov-derecha img {
+    transition: all 0.5s ease-in-out;
+}
+
+.mov-derecha img:hover {
+    transform-origin: center left;
+    cursor: pointer;
+    transform: scale(1.01, 1);
+}
+
+
+/*//////////////////////////////////////////////////////////////  carousel2  //////////////////////////////////////////////////////////////*/
+
+.carousel2 .carousel-caption {
+    text-align: center;
+}
+
+.carousel2 .carousel-caption p {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.294em;
+    font-family: Marcellus, serif;
+    color: #14203b;
+}
+
+.carousel2 .carousel-caption h5 {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 1.6em;
+    letter-spacing: .6em;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    color: #b29063;
+}
+
+.carousel2 .carousel-control-prev-icon {
+    background-image: url(bootstrap-icons-1.10.3/chevron-bar-left.svg)
+}
+
+.carousel2 .carousel-control-next-icon {
+    background-image: url(bootstrap-icons-1.10.3/chevron-bar-right.svg);
+}
+
+.carousel2 {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.comillas {
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    margin-top: 10%;
+    font-size: 100px;
+
+}
+
+.comillas p {
+    font-family: Marcellus;
+    color: #B29063;
+}
+
+
+/*//////////////////////////////////////////////////////////////  footer  //////////////////////////////////////////////////////////////*/
+
+#main-footer {
+    background-color: #14203b;
+
+    color: white;
+}
+
+.foot1 {
+    padding: 168px 0 127px 0;
+}
+
+#style-logo-footer h1 {
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+#style-logo-footer p {
+    padding-top: 0;
+    letter-spacing: 0.3em;
+    color: #B29063;
+    margin-right: 30px;
+
+}
+
+.part1 {
+    padding-right: 180px;
+
+}
+
+.info-footer {
+    color: white;
+}
+
+.info-footer p {
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 1.75em;
+    font-weight: 300;
+    color: #b7b8be;
+}
+
+.sub input {
+    background-color: transparent;
+
+    border: 0;
+    border-bottom: 1px solid white;
+}
+
+.sub div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sub div i {
+    margin-top: 4px;
+    margin-left: -25px;
+    color: #b7b8be;
+
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d4bfa3;
+    color: #14203b;
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 20px;
+}
+
+#foot2 {
+    border-top: 0 solid #e1e1e1;
+    padding: 10px 0;
+    border-top-color: rgba(255, 255, 255, 0.2);
+    border-top-width: 1px;
+
+}
+
+#foot2 p {
+    font-size: 13px;
+    color: #b7b8be;
+}
+
+.sedes {
+    display: flex;
+
+}
+
+.sedes p {
+    padding: 0 15px;
+    border-right: 0 solid #e1e1e1;
+    border-right-color: rgba(255, 255, 255, 0.2);
+    border-right-width: 1px;
+}
+
+/*//////////////////////////////////////////////////////////////  arriba  //////////////////////////////////////////////////////////////*/
+
+#ir-arriba {
+    position: fixed;
+    background-color: #fff;
+    right: 20px;
+    bottom: 60px;
+    padding: 10px 15px;
+    transition: .5s all ease-in-out;
+    animation: mover-ir-arriba 3s ease-out;
+}
+
+#ir-arriba:hover {
+    bottom: 65px;
+}
+
+#ir-arriba i {
+    color: #14203b;
+}
+
+/*//////////////////////////////////////////////////////////////  @media  //////////////////////////////////////////////////////////////*/
+
+@media(max-width: 1200px) {
+    .comillas {
+        margin-top: 5%;
+    }
+}
+
+@media(max-width: 1025px) {
+    .carousel-control-prev {
+        opacity: 0;
+    }
+
+    .carousel-control-prev:hover {
+        opacity: 0;
+    }
+
+    .carousel-control-next {
+        opacity: 0;
+    }
+
+    .carousel-control-next:hover {
+        opacity: 0;
+    }
+
+    .info-header {
+        opacity: 0;
+    }
+
+    #style-logo {
+        border-right: none;
+    }
+    
+}
+
+@media(max-width: 990px) {
+    .carousel2 {
+        padding-top: 100px;
+    }
+    .footer-part1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .footer-part1 .part1{
+        margin-bottom: 100px;
+    }
+    .footer-part1 .col-6{
+        width: 100%;
+    }
+
+}
